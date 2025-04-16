@@ -26,6 +26,10 @@ SECRET_KEY = 'django-insecure-+)&16&lin7##*vn(@k0meq@h54dvjml@f7z_z))vl$mjj88ix!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://whatsappbot-o4j0.onrender.com',
+]
+
 ALLOWED_HOSTS = ['localhost', 'whatsappbot-o4j0.onrender.com', 'https://whatsappbot-o4j0.onrender.com/']
 
 
