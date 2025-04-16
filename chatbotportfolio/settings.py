@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-+)&16&lin7##*vn(@k0meq@h54dvjml@f7z_z))vl$mjj88ix!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['eb08-41-90-188-77.ngrok-free.app', 'localhost']
+ALLOWED_HOSTS = ['localhost', 'whatsappbot-o4j0.onrender']
 
 
 # Application definition
