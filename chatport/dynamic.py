@@ -31,6 +31,6 @@ def sendWhatsappMessage(session, phoneNumber, message):
     print(res)
     return res
 
-def clearSession(*args, **kwargs):
+def clearSession():
     print("clear session over here ")
     pass
